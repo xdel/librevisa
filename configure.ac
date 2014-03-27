@@ -18,7 +18,7 @@
 
 AC_PREREQ([2.67])
 AC_INIT([librevisa], [0.0.20130812], [Simon.Richter@hogyros.de])
-AM_INIT_AUTOMAKE([1.10 foreign parallel-tests])
+AM_INIT_AUTOMAKE([1.10 foreign parallel-tests subdir-objects])
 LT_INIT
 
 # Initialize pkg-config.
