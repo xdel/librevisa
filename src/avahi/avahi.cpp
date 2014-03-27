@@ -170,7 +170,7 @@ static void avahi_service_resolver_callback(
 }
 
 namespace librevisa {
-namespace vxi {
+namespace avahi {
 
 avahi::avahi()
 {

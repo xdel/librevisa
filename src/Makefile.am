@@ -89,7 +89,7 @@ endif
 if WITH_AVAHI
 AVAHI_SOURCES = \
 	messagepump_avahi.cpp messagepump_avahi.h \
-	vxi/avahi.cpp vxi/avahi.h
+	avahi/avahi.cpp avahi/avahi.h
 else
 AVAHI_SOURCES =
 endif

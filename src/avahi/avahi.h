@@ -15,13 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef librevisa_vxi_avahi_h_
-#define librevisa_vxi_avahi_h_ 1
+#ifndef librevisa_avahi_avahi_h_
+#define librevisa_avahi_avahi_h_ 1
 
 #include "resource_creator.h"
 
 namespace librevisa {
-namespace vxi {
+namespace avahi {
 
 class avahi :
         public resource_creator
